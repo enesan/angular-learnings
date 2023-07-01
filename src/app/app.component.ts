@@ -4,12 +4,9 @@ import {ChildComponent3} from './templateVariables/child.component';
 @Component({
     selector: 'my-app',
     template:  `
-             <child-comp3 #counter></child-comp3>
-             <button (click)="increment()">+</button>
-             <button (click)="decrement()">-</button>
-            <p #nameText>{{name}}</p>
-            <p>{{nameText.textContent}}</p>
-            <button (click)="change()">Изменить</button>
+             <child-comp3>
+             <h3 #headerContent>Добро пожаловать {{name}}!</h3>
+             </child-comp3>
     `
 })
 

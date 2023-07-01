@@ -25,5 +25,8 @@
           }
         }
       }},
-    "defaultProject": "purchaseapp"
+    "defaultProject": "purchaseapp",
+    "cli": {
+      "analytics": false
+    }
   }
